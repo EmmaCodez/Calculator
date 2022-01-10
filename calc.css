@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {
+    .column{width: 100%;}
+}
+
+body{
+    background-color: rgb(137, 243, 137);
+}
+section{
+    background-color: rgb(201, 197, 197);
+    background-image: url(https://images.pexels.com/photos/459369/pexels-photo-459369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 385px;
+    height: 520px;
+border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+   .firstinput input{
+       width: 320px;
+       height: 62px;
+       margin-left: 30px;
+       margin-top: 30px;
+       border-radius: 3%;
+       border: none;
+       color: rgb(141, 139, 139);
+   }
+  .secondinput table button{
+      font-size: 16px;
+      border: none;
+      padding: 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 50%;
+      margin-left: 25px;
+      margin-top: 20px;
+      width: 56px;
+      height: 46px;
+  }
